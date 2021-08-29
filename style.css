@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  transition: 0.3s ease;
+}
+
+.header h1 {
+  font-size: 3rem;
+  padding-right: 4rem;
+}
+
+.header button {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  border-style: none;
+}
+
+.btn {
+  background-color: rgb(95, 94, 94);
+  color: white;
+  box-shadow: black 0px 4px 1px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(241, 241, 241);
+}
+
+.content {
+  font-size: 2.5rem;
+  padding: 5rem 10rem;
+  display: flex;
+  gap: 10rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  transition: 0.3s ease;
+  color: black;
+  background-color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(223, 215, 215);
+}
+
+.dark-mode .btn {
+  color: black;
+  background-color: rgb(241, 241, 241);
+  box-shadow: rgb(160, 160, 160) 0px 4px 1px;
+}
+
+.dark-mode .btn:hover {
+  background-color: rgb(95, 94, 94);
+  color: white;
+}
